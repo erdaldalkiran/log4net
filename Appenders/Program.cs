@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 using log4net;
 using log4net.Appender;
 
@@ -23,10 +24,11 @@ namespace Appenders
             logger.Fatal("Fatal");
 
 
-            //For rolling file appender
+            //For rolling file/telnet appender
             while (!Console.KeyAvailable)
             {
                 logger.Error(DateTime.Now.ToLongDateString());
+                Thread.Sleep(100);
             }
 
             Console.ReadKey();
