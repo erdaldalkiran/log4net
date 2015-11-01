@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4Net.Loggers", "Log4Net.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Appenders", "Appenders\Appenders.csproj", "{43E62592-FF02-47B1-B225-980EC9832265}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4Net.Layout", "Log4Net.Layout\Log4Net.Layout.csproj", "{E86FD635-5652-447D-8A2D-863B1E1D6F00}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{43E62592-FF02-47B1-B225-980EC9832265}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43E62592-FF02-47B1-B225-980EC9832265}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43E62592-FF02-47B1-B225-980EC9832265}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E86FD635-5652-447D-8A2D-863B1E1D6F00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E86FD635-5652-447D-8A2D-863B1E1D6F00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E86FD635-5652-447D-8A2D-863B1E1D6F00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E86FD635-5652-447D-8A2D-863B1E1D6F00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

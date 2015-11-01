@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Threading;
 using log4net;
-using log4net.Appender;
 
 namespace Appenders
 {
@@ -12,9 +11,6 @@ namespace Appenders
             log4net.Config.XmlConfigurator.Configure();
 
             var logger = LogManager.GetLogger(typeof (Program));
-            
-            //var appender = new RollingFileAppender();
-            //appender.PreserveLogFileNameExtension
 
             logger.Debug("Debug");
             logger.Info("Info");
