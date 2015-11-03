@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4Net.Layout", "Log4Net.L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4Net.Context", "Log4Net.Context\Log4Net.Context.csproj", "{F1CF499E-8309-46D7-8CBC-E6269CB71746}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4Net.Filters", "Log4Net.Filters\Log4Net.Filters.csproj", "{174951B1-4276-4F54-87A5-80A979EE7EE4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{F1CF499E-8309-46D7-8CBC-E6269CB71746}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1CF499E-8309-46D7-8CBC-E6269CB71746}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1CF499E-8309-46D7-8CBC-E6269CB71746}.Release|Any CPU.Build.0 = Release|Any CPU
+		{174951B1-4276-4F54-87A5-80A979EE7EE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{174951B1-4276-4F54-87A5-80A979EE7EE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{174951B1-4276-4F54-87A5-80A979EE7EE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{174951B1-4276-4F54-87A5-80A979EE7EE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
